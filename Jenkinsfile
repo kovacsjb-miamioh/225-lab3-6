@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'kovacsjb-dockerhub'
-        DOCKER_IMAGE = 'cithit/roseaw'                                                                    //<------change this
+        DOCKER_IMAGE = 'cithit/kovacsjb'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/kovacsjb-miamioh/225-lab3-6.git'                                          //<------change this
         KUBECONFIG = credentials('kovacsjb-225')                                                         //<------change this
